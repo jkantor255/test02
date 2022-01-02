@@ -2,7 +2,7 @@ const express = require("express")
 const app = express()
 const PORT = process.env.PORT || 3000; // bardzo istotna linijka - port zostaje przydzielony przez Heroku
 
-obiekt = {imie: "Imię", nazwisko: "Nazwisko", klasa: "klasa", grupa: "grupa"}
+obiekt = {imie: "Jolanta", nazwisko: "Kantor", klasa: "3I1", grupa: "1"}
 
 
 app.get("/", function (req, res) {
